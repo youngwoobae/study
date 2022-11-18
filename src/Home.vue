@@ -1,6 +1,13 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <v-row>
+      <v-col>
+        <img alt="Vue logo" src="./assets/봄.png">
+        <img alt="Vue logo" src="./assets/여름.png">
+        <img alt="Vue logo" src="./assets/가을.png">
+        <img alt="Vue logo" src="./assets/겨울.png">
+      </v-col>
+    </v-row>
     <p>
     <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>

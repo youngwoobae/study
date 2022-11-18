@@ -1,7 +1,14 @@
 <template>
-  <div class="header">
-    <h1>Header</h1>
-    <router-link to="/">Home</router-link> / <router-link to="/bar">Go to Bar</router-link> / <router-link to="/login">Go to Login</router-link>
+  <div class="header" >
+    <div>
+      <v-row>
+        <v-col cols="3">
+          <h2>여행 좋아하세요?</h2>
+        </v-col>
+        <v-col cols="9"></v-col>
+      </v-row>
+    </div>
+    <router-link to="/bar">여행 일지</router-link> / <router-link to="/">메인페이지</router-link> / <router-link to="/login">여행지 추가</router-link>
   </div>
 
 </template>
@@ -14,7 +21,6 @@ export default {
 <style scoped>
 .header {
   text-align: center;
-  background-color: lightgray;
 }
 
 a {
