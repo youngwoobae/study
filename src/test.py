@@ -5,7 +5,7 @@ url = 'https://www.agoda.com/ko-kr/search?guid=4b4792af-80c7-4e27-93b6-eddd06ad3
 driver = webdriver.Chrome("C:\git\chromedriver.exe") # webdriver 실행(크롬 창 생성)
 driver.get(url) # url로 접속
 
-name = driver.find_element_by_css_selector("hotel-name").text
+name = driver.find_element_by_css_selector("h2.hp__hotel-name").text
 price_b = driver.find_elements_by_css_selector("div.bui-price-display__value")
 
 
