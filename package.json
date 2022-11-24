@@ -1,43 +1,97 @@
 {
-  "name": "foo",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.5.2"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
+    "name": "union_mis_fo",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
     },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-regular-svg-icons": "^5.15.1",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/vue-fontawesome": "^2.0.0",
+        "@fullcalendar/daygrid": "^5.3.2",
+        "@fullcalendar/interaction": "^5.3.1",
+        "@fullcalendar/list": "^5.3.1",
+        "@fullcalendar/timegrid": "^5.3.1",
+        "@fullcalendar/vue": "^5.3.1",
+        "@types/vue-barcode-reader": "0.0.0",
+        "@vue/composition-api": "^1.0.0-rc.11",
+        "ag-grid-community": "^24.1.0",
+        "ag-grid-enterprise": "^24.1.0",
+        "ag-grid-vue": "^24.1.1",
+        "axios": "^0.21.4",
+        "bootstrap": "^4.6.0",
+        "bootstrap-vue": "^2.19.0",
+        "chart.js": "^2.9.4",
+        "core-js": "^3.8.2",
+        "highcharts": "^10.2.0",
+        "highcharts-vue": "^1.4.0",
+        "liquor-tree": "^0.2.70",
+        "regenerator-runtime": "^0.13.7",
+        "save": "^2.4.0",
+        "socket.io": "^3.0.3",
+        "sockjs-client": "^1.5.2",
+        "swiper": "^5.3.7",
+        "v-calendar": "^1.0.0-beta.23",
+        "vee-validate": "^3.4.5",
+        "vodal": "^2.4.0",
+        "vue": "^2.6.11",
+        "vue-awesome-swiper": "^3.1.3",
+        "vue-barcode-reader": "^1.0.2",
+        "vue-barcode-scanner": "^0.8.1",
+        "vue-chartjs": "^3.5.1",
+        "vue-class-component": "^7.2.6",
+        "vue-good-table": "^2.21.1",
+        "vue-js-modal": "^2.0.0-rc.6",
+        "vue-jstree": "^2.1.6",
+        "vue-notification": "^1.3.20",
+        "vue-property-decorator": "^9.1.2",
+        "vue-router": "^3.2.0",
+        "vue-slick-carousel": "^1.0.6",
+        "vue-validate": "^1.0.1",
+        "vue-websocket": "^0.2.3",
+        "vue2-editor": "^2.10.2",
+        "vue2-swiper": "0.0.13",
+        "vuetify": "^2.3.19",
+        "vuex": "^3.4.0",
+        "webpack-cli": "^4.2.0",
+        "webstomp-client": "^1.2.6",
+        "xlsx": "^0.17.2"
     },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-plugin-vuex": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.2.2",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11",
+        "webpack-bundle-analyzer": "^4.4.1"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
 }

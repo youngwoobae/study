@@ -1,18 +1,28 @@
 <template>
   <div id="app">
-    <v-row>
-      <v-col>
-        <img alt="Vue logo" src="./assets/봄.png">
-        <img alt="Vue logo" src="./assets/여름.png">
-        <img alt="Vue logo" src="./assets/가을.png">
-        <img alt="Vue logo" src="./assets/겨울.png">
-      </v-col>
-    </v-row>
-    <p>
-    <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
+    <div>
+      <v-row>
+        <v-row style="display:flex; justify-content:center; margin: 50px">
+          <v-col>
+            <router-link to="/Tourism"><img alt="Vue logo" src="./assets/관광.png" class="mainPhoto"><p>국내 여행</p></router-link>
+          </v-col>
+          <!-- <v-col>
+            <router-link to="/Hiking"><img alt="Vue logo" src="./assets/하이킹.png" class="mainPhoto"><p>하이킹</p></router-link>
+          </v-col>
+          <v-col>
+            <router-link to="/Jeju"><img alt="Vue logo" src="./assets/제주도.png" class="mainPhoto"><p>제주</p></router-link>
+          </v-col> -->
+          <v-col style="margin-left: 150px;">
+            <router-link to="/overseasTrip"><img alt="Vue logo" src="./assets/해외.png" class="mainPhoto"><p>해외 여행</p></router-link>
+          </v-col>
+        </v-row>
+      </v-row>
+      <v-row style="align-items: ;">
+        <span>hiiiiiii</span>
+      </v-row>
+    </div>
   </div>
-</template>
+</template> 
 
 <script>
 
@@ -29,5 +39,16 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  display: grid;
+  place-items: center;
+  min-height: 70vh;
+}
+
+.mainPhoto{
+  width: 250px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

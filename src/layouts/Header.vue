@@ -3,7 +3,7 @@
     <div>
       <v-row>
         <v-col cols="3">
-          <h2>여행 좋아하세요?</h2>
+          <h2>Trip To Get</h2>
         </v-col>
         <v-col cols="9"></v-col>
       </v-row>
@@ -25,5 +25,5 @@ export default {
 
 a {
   color: #42b983;
-}
+} 
 </style>
